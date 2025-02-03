@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 70%;
+    padding: 8px;
+    margin: 50px;
+}
+.searchbar{
+    text-align: center;
+}
+.watch{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 250px;
+
+}
+.shoe{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 250px;
+}
+.cam{
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 250px;
+}
+.watch:hover{
+    background-color: black;
+    color: white;
+}
+.shoe:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+.cam:hover{
+    background-color: red;
+    color: white;
+}
+
+.product{
+    text-align: center;
+}
+.about{
+    text-align: center;
+    margin-top: 30px;
+}
+.contact{
+    text-align: center;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px ;
+}
+.size{
+    margin-top: 20px;
+    font-size: small;
+}
